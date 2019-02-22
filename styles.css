@@ -1,0 +1,211 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+a:active,
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+
+/* General */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #34074E;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.container-full {
+    width: 100%;
+    box-shadow: inset 0px 10px 25px -5px rgba(0,0,0,0.25);
+}
+
+.section-full {
+    width: 900px;
+    max-width: 100%;
+    padding: 60px 20px;
+    margin: 0 auto;
+}
+
+.container-half {
+    display: inline-block;
+    width: 50%;
+    box-shadow: inset 0px 10px 25px -5px rgba(0,0,0,0.25);
+    vertical-align: top;
+}
+
+.section-half {
+    width: 450px;
+    max-width: 50%;
+    padding: 60px 20px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .container-half {
+        width: 100%;
+    }
+
+    .section-full,
+    .section-half {
+        padding: 40px 10px;
+    }
+}
+
+
+
+/* Setti */
+.setti {
+    background: #34074E;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.setti img {
+    width: 200px;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+
+
+/* Raider Bay */
+.raider-bay {
+    background: #04395B;
+    color: #DDD;
+}
+
+.raider-bay img {
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto 30px;
+}
+
+.raider-bay .button {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin: 15px auto 0;
+    border: 2px solid #081C2B;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #41778c;
+    text-transform: uppercase;
+}
+
+.raider-bay .button:first-child {
+    margin-top: 30px;
+}
+
+.raider-bay a.button {
+    background: #DDD;
+    color: #081C2B;
+    border: 2px solid #081C2B;
+    box-shadow: 0px 11px 0px -5px #081C2B;
+}
+
+.raider-bay p {
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* Goblins Vault */
+.goblin-vault {
+    height: 320px;
+    background: #261C1A url(https://storage.googleapis.com/setti-raider-bay.appspot.com/setti/web-gv-bg.png);
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #FAF723;
+}
+
+.goblin-vault img {
+    width: 250px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+
+
+/* Plot */
+.plot {
+    height: 320px;
+    background: #40AF13;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.plot img {
+    width: 250px;
+    max-width: 100%;
+    margin: 0 auto 30px;
+}
