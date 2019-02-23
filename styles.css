@@ -178,7 +178,7 @@ p {
 
 /* Goblins Vault */
 .goblin-vault {
-    height: 320px;
+    height: 330px;
     background: #261C1A url(https://storage.googleapis.com/setti-raider-bay.appspot.com/setti/web-gv-newbg.png);
     background-size: cover;
     background-position: center center;
@@ -190,14 +190,14 @@ p {
 .goblin-vault img {
     width: 250px;
     max-width: 100%;
-    margin: 40px auto;
+    margin: 30px auto;
 }
 
 
 
 /* Plot */
 .plot {
-    height: 320px;
+    height: 330px;
     background: #40AF13;
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
@@ -208,4 +208,8 @@ p {
     width: 250px;
     max-width: 100%;
     margin: 0 auto 30px;
+}
+
+.gform{
+    color: rgb(0, 0, 0)
 }
